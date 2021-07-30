@@ -2,7 +2,6 @@
 import fileinput
 import re
 import sys
-import fileinput
 
 "Usage gcode_edit.py gcodeprogram.gcode axis offset -- gcode_edit.py program.gcode X -25"
 with fileinput.FileInput(sys.argv[1], inplace=True, backup='.bak') as file:
